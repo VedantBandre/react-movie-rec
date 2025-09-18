@@ -1,16 +1,17 @@
 import "./css/App.css";
 import React, { useEffect } from 'react';
-import Search from './components/search';
+// import Search from './components/search';
 import { useState } from 'react';
 import MovieCard from './components/MovieCard';
 import Home from './pages/Home';
 import {Routes, Route} from "react-router-dom"
 import Favourites from './pages/Favourites';
 import NavBar from './components/NavBar';
+import { MovieProvider } from "./contexts/MovieContext";
 
 function App() {
   return (
-    <div>
+    <MovieProvider>
       <NavBar></NavBar>
       <main className='main-content'>
         <Routes>
@@ -18,7 +19,7 @@ function App() {
           <Route path="/favourites" element={<Favourites />}/>
         </Routes>
       </main>
-    </div>
+    </MovieProvider>
   );
 }
 
