@@ -1,12 +1,65 @@
-# React + Vite
+# React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/40904f66-18a2-42ee-a7d7-50dd10dd86d2" alt="Homepage Screenshot" width="45%" />
+<!--   <img width="1844" height="972" alt="image" src="" /> -->
 
-Currently, two official plugins are available:
+  <img src="https://github.com/user-attachments/assets/e12e107e-ead6-4fde-88d2-bf05399bf371" alt="Favourites Screenshot" width="45%" />
+<!--   <img width="1843" height="972" alt="image" src="" /> -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</p>
 
-## Expanding the ESLint configuration
+A simple and responsive movie browsing application built with **React**.  
+Users can search for movies, view details, and save favourites for quick access later.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Search movies by title  
+- Add/remove favourites  
+- Responsive UI with modern styling  
+- Movie details fetched from an external TMDb API  
+- Built with React hooks and functional components  
+
+---
+
+## Tech Stack
+
+- [ReactJS](https://reactjs.org/)  
+- [TMDb API](https://developer.themoviedb.org/docs/getting-started)
+- [HTML, CSS]
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+
+   git clone https://github.com/yourusername/react-movie-app.git
+
+   cd react-movie-app
+
+3. Install dependencies:
+
+   npm install
+
+3. Get an API key from [TMDb](https://developer.themoviedb.org/docs/getting-started)
+
+4. Create a 'env.local' file in the project's root directory
+
+5. Paste your key after the equal sign:
+
+   VITE_TMDB_API_KEY=YOUR_KEY
+
+   and then copy this line inside the env.local file
+
+7. Run the application locally:
+  npm run dev
+
+8. Access the application at [localhost:5173](http://localhost:5173/)
+---
+
+License
+
+This project is licensed under the MIT License.
