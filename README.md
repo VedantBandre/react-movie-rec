@@ -1,11 +1,9 @@
 # React Movie App
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/40904f66-18a2-42ee-a7d7-50dd10dd86d2" alt="Homepage Screenshot" width="45%" />
-<!--   <img width="1844" height="972" alt="image" src="" /> -->
-
+  <img src="https://github.com/user-attachments/assets/485a9daa-918d-408c-9186-f014ef174e16" alt="Homepage Screenshot" width="45%" />
+  
   <img src="https://github.com/user-attachments/assets/e12e107e-ead6-4fde-88d2-bf05399bf371" alt="Favourites Screenshot" width="45%" />
-<!--   <img width="1843" height="972" alt="image" src="" /> -->
 
 </p>
 
