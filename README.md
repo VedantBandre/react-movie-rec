@@ -34,13 +34,17 @@ Users can search for movies, view details, and save favourites for quick access 
 
 1. Clone the repository:
 
+   ```bash
    git clone https://github.com/yourusername/react-movie-app.git
 
    cd react-movie-app
+   ```
 
 3. Install dependencies:
 
+   ```bash
    npm install
+   ```
 
 3. Get an API key from [TMDb](https://developer.themoviedb.org/docs/getting-started)
 
@@ -48,16 +52,37 @@ Users can search for movies, view details, and save favourites for quick access 
 
 5. Paste your key after the equal sign:
 
+   ```bash
    VITE_TMDB_API_KEY=YOUR_KEY
+   ```
 
-   and then copy this line inside the env.local file
+   and then copy the line inside the env.local file
 
 7. Run the application locally:
-  npm run dev
 
-8. Access the application at [localhost:5173](http://localhost:5173/)
+   ```bash
+   npm run dev
+   ```
+
+9. Access the application at
+
+   [localhost:5173](http://localhost:5173/)
+   
 ---
 
-License
+## Contributing
 
-This project is licensed under the MIT License.
+PRs and suggestions welcome!
+Open an issue to propose changes, or submit a PR with:
+
+* a clear description (what/why),
+* screenshots (UI),
+* tests where it makes sense.
+
+---
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+---
